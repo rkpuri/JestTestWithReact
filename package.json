@@ -1,0 +1,36 @@
+{
+  "name": "myappwebpack",
+  "version": "1.0.0",
+  "description": "webpack learning",
+  "jest": {
+    "setupTestFrameworkScriptFile": "./setupTests.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "server": "webpack-dev-server --inline --progress --colors",
+    "test": "jest --watchAll --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "less": "^2.7.3",
+    "less-loader": "^4.1.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "babel-jest": "^22.4.3",
+    "jest": "^22.4.3",
+    "regenerator-runtime": "^0.11.1"
+  }
+}
